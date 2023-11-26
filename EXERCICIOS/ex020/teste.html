@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando pseudoclasses</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+         
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: red;
+            color:white;
+            width: 175px;
+        }
+
+        div{
+            color:blue
+        }
+    </style>
+</head>
+<body>
+    <h1>teste</h1>
+    <p>Qual o meu nome?</p>
+    <div>Meu nome é Christiano.
+        <p>Mas meu apelido é Bac.</p>
+    </div>
+</body>
+</html>
